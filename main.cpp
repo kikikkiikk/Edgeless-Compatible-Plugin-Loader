@@ -19,7 +19,7 @@ int chooses(){
 	time_t now = time(0);
 	tm *ltm = localtime(&now);
 	int year=1900+ltm->tm_year;
-	cout<<"@Copyright "<<year<<" Ì·÷è·å °æÈ¨ËùÓÐ"<<endl<<"Edgeless Compatible Plugin Loader v0.1 Alpha"<<endl<<"ÓÉÓÚÄÚ´æÏÞÖÆ£¬±¾³ÌÐòÖ»ÄÜ¼ÓÔØ512¸ö²å¼þ£¨·´ÕýÆÕÍ¨ÈËÒ²²»ÓÃÄÇÃ´¶à£©"<<endl<<"ÊÇ·ñ¼ÓÔØPluginÄ¿Â¼ÏÂµÄËùÓÐ²å¼þ£¿£¨1=È·ÈÏ 2=È¡Ïû£©";
+	cout<<"@Copyright "<<year<<" kikikkii ç‰ˆæƒæ‰€æœ‰"<<endl<<"Edgeless Compatible Plugin Loader v0.1 Alpha"<<endl<<"ç”±äºŽå†…å­˜é™åˆ¶ï¼Œæœ¬ç¨‹åºåªèƒ½åŠ è½½512ä¸ªæ’ä»¶ï¼ˆåæ­£æ™®é€šäººä¹Ÿä¸ç”¨é‚£ä¹ˆå¤šï¼‰"<<endl<<"æ˜¯å¦åŠ è½½Pluginç›®å½•ä¸‹çš„æ‰€æœ‰æ’ä»¶ï¼Ÿï¼ˆ1=ç¡®è®¤ 2=å–æ¶ˆï¼‰";
 	cin>>choose;
 	return choose;
 }
